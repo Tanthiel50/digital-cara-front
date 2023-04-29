@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Cara</title>   
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav class="navbar fixed-top navbar-dark navbar-expand-md border-bottom border-orange border-1" id="navbar">
+        <div class="container">
+            <!-- Responsive -->
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarText">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- NAV -->
+            <div id="navbarText" class="collapse navbar-collapse">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="success.html">Success</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+                </div>
+        </div>
+    </nav>
+
+<!-- HERO -->
+<section class="text-white row pt-5 align-items-center justify-content-center hero-project">
+    <h1 class="col-lg-3 col-7">PICK YOUR <span class="text-orange">CHAMP</span> </h1>
+    <div class="col-lg-8 col-4 d-flex align-items-end justify-content-end row">
+        <img src="./images/cyberpunk2.jpg" class="col img-fluid pe-2 col-6" alt="...">
+        <img src="./images/japanese1.jpg" class="col img-fluid pe-2 project-img2 col-4" alt="...">
+        <img src="./images/knight4.jpg" class="col img-fluid project-img3 col-2" alt="...">
+    </div>
+</section>
+
+<!-- MODALE -->
+<section>
+    <div class="container">
+        <div class="d-flex align-items-end justify-content-center pb-5">
+            <h2 class="border-bottom border-orange border-1 pb-2 fw-bold text-white text-center">LES CHAMPIONS DISPONIBLES</h2>
+        </div>
+    <div class="row g-5">
+        <div class="col-lg-4 col-md-6">
+            <div class="card bg-orange"> 
+                <img src="./images/knight4.jpg" class="card-img-top"/>
+                <div class="card-body text-center">
+                    <h5>Marketing <span class="text-white">Gaffiot</span></h5>
+                </div>
+                <div class="card-footer p-3 text-center">
+                    <button type="button" class="btn btn-sm-dark w-75" data-bs-toggle="modal" data-bs-target="#cara">Gameplay</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="cara" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+    
+                    <!-- Header -->
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center">
+                            Marketing Gaffiot
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+    
+                <!-- Body -->
+                    <div class="modal-body w-100">
+                        <img src="./images/knight4.jpg" class="w-100"/>
+                        <p>En véritable paladin heal, Gaffiot est sur tous les fronts ! <br> Elle analyse tout et élabore les meilleures
+                            stratégies pour son équipe. Elle fait son possible pour promouvoir son équipe et la mener vers les sommets. Sa distance
+                            lui permet d'avoir une vision globale et d'orienter les stratégies vers la bonne direction. Elle sait
+                            identifier les points à viser et est aussi en mesure d'analyser les échecs, prendre en comptes les capacités de 
+                            son équipe pour élaborer de nouvelles stratégies. Elle écoute tout et n'hésite pas à tester de nouvelles tactiques.
+                            Son but premier est de rester en accord avec son équipe et de la mener la plus loin possible.
+                            <p> <b>Fun fact :</b> Gaffiot est le premier personnage joué par Cara et son nom provient tout simplement du dictionnaire latin/français qui se trouvait sur son étagere devant elle.</p>
+                        </p>
+                    </div>
+    
+                <!-- Footer -->
+                    <div class="modal-footer d-flex justify-content-center">
+                        <a class="btn w-75 btn-sm-dark " data-bs-toggle="tooltip" data-bs-placement="bottom" href="contact.html">I pick this character</a>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-4 col-md-6">
+            <div class="card bg-orange"> 
+                <img src="./images/japanese1.jpg" class="card-img-top"/>
+                <div class="card-body text-center">
+                    <h5>Communication <span class="text-white">Tanthiel</span></h5>
+                </div>
+                <div class="card-footer p-3 text-center">
+                    <button type="button" class="btn btn-sm-dark w-75" data-bs-toggle="modal" data-bs-target="#tanthiel">Gameplay</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="tanthiel" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+    
+                    <!-- Header -->
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center">
+                            Communication Tanthiel
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+    
+                <!-- Body -->
+                    <div class="modal-body w-100">
+                        <img src="./images/japanese1.jpg" class="w-100"/>
+                        <p>Un monk qui sait tout faire. <br> Elle est capable de soutenir sa team mais également se mettre en avant en passant
+                            en front-line. Lorsqu'elle agit en première ligne, elle diffuse et met en avant sa team avec ses talents. Elle
+                            sait les meilleurs outils et est capable de réagit très rapidement pour retourner en back lane pour s'assurer que
+                            toute la team communique efficacement entre elle et surtout qu'elle apparait sous son meilleur jour. Elle sait trouver
+                            les bons mots et les bons supports. La plus grande capacité de Tanthiel est d'être vive et tout comme Gaffiot, d'avoir
+                            une bonne vision d'ensemble.
+                            <p> <b>Fun fact :</b> Tanthiel est apparue car les compétences de Gaffiot n'était pas suffisante et à force d'entrainement, elle est devenue un personnage très puissant.</p>
+                        </p>
+                    </div>
+    
+                <!-- Footer -->
+                    <div class="modal-footer d-flex justify-content-center">
+                        <a class="btn w-75 btn-sm-dark " data-bs-toggle="tooltip" data-bs-placement="bottom" href="contact.html">I pick this character</a>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-4 col-md-6">
+            <div class="card bg-orange"> 
+                <img src="./images/cyberpunk2.jpg" class="card-img-top"/>
+                <div class="card-body text-center">
+                    <h5>Dev <span class="text-white">Morgause</span></h5>
+                </div>
+                <div class="card-footer p-3 text-center">
+                    <button type="button" class="btn btn-sm-dark w-75" data-bs-toggle="modal" data-bs-target="#morgause">Gameplay</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="morgause" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+    
+                    <!-- Header -->
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center">
+                            Dev Morgause
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+    
+                <!-- Body -->
+                    <div class="modal-body w-100">
+                        <img src="./images/cyberpunk2.jpg" class="w-100"/>
+                        <p>La hackeuse fait ses premiers pas. <br> Elle s'entraine tous les jours pour qu'elle puisse faire ses débuts au sein d'une team. Elle ne dispose pas d'autant d'expériences que les autres champions et pourtant elle se 
+                            sent prête à soutenir son équipe avec ses connaissances. Pas encore prête à diriger, elle écoutera surtout les conseils
+                            du teamleader afin de progresser le plus rapidement possible.
+                            <p> <b>Fun fact :</b> Morgause n'attend qu'une team pour avoir des fun fact à ajouter à son compteur !</p>
+                        </p>
+                    </div>
+    
+                <!-- Footer -->
+                    <div class="modal-footer d-flex justify-content-center">
+                        <a class="btn w-75 btn-sm-dark " data-bs-toggle="tooltip" data-bs-placement="bottom" href="contact.html">I pick this character</a>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SUCCESS -->
+<section class="pt-5">
+    <div class="container">
+        <div class="d-flex align-items-end justify-content-center pb-5">
+            <h2 class="border-bottom border-orange border-1 pb-2 fw-bold text-white text-center">SUCCESS</h2>
+        </div>
+    <div class="row g-5">
+        <div class="col-lg-4 col-md-6">
+            <div class="card bg-white"> 
+                <img src="./images/success/digital-cara-back.png" class="card-img-top"/>
+                <div class="card-body text-center">
+                    <h5>Digital <span class="text-orange">Cara</span></h5>
+                </div>
+                <div class="card-footer p-3 text-center">
+                    <button type="button" class="btn btn-sm-dark w-75" data-bs-toggle="modal" data-bs-target="#digital-cara">Let me see</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="digital-cara" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+    
+                    <!-- Header -->
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center">
+                            Marketing Gaffiot
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+    
+                <!-- Body -->
+                    <div class="modal-body w-100">
+                        <img src="./images/success/digital-cara-back.png" class="w-100"/>
+                        <p>Une version un peu différente de ce site.
+                            Le projet initial était de faire une blog où il serait possible de publier des articles de blog et des projets via
+                            un dashboard. Les utilisateurs devaient également être en mesure de poster et gérer les commentaires via leur dashbord.
+                            Le projet avait pour but d'utiliser :
+                            <ul>
+                                <li>Bootstrap</li>
+                                <li>PHP</li>
+                            </ul>
+                            Ce site utilise donc une version simplifié de cette version. Le projet est toujours en cours.
+                        </p>
+                    </div>
+    
+                <!-- Footer -->
+                    <div class="modal-footer d-flex justify-content-center">
+                        <a class="btn w-75 btn-sm-dark " data-bs-toggle="tooltip" data-bs-placement="bottom" href="https://github.com/Tanthiel50/digital-cara" target="_blank">Digital Cara Github</a>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-4 col-md-6">
+            <div class="card bg-orange"> 
+                <img src="./images/japanese1.jpg" class="card-img-top"/>
+                <div class="card-body text-center">
+                    <h5>Communication <span class="text-white">Tanthiel</span></h5>
+                </div>
+                <div class="card-footer p-3 text-center">
+                    <button type="button" class="btn btn-sm-dark w-75" data-bs-toggle="modal" data-bs-target="#tanthiel">Gameplay</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="tanthiel" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+    
+                    <!-- Header -->
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center">
+                            Communication Tanthiel
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+    
+                <!-- Body -->
+                    <div class="modal-body w-100">
+                        <img src="./images/japanese1.jpg" class="w-100"/>
+                        <p>Un monk qui sait tout faire. <br> Elle est capable de soutenir sa team mais également se mettre en avant en passant
+                            en front-line. Lorsqu'elle agit en première ligne, elle diffuse et met en avant sa team avec ses talents. Elle
+                            sait les meilleurs outils et est capable de réagit très rapidement pour retourner en back lane pour s'assurer que
+                            toute la team communique efficacement entre elle et surtout qu'elle apparait sous son meilleur jour. Elle sait trouver
+                            les bons mots et les bons supports. La plus grande capacité de Tanthiel est d'être vive et tout comme Gaffiot, d'avoir
+                            une bonne vision d'ensemble.
+                            <p> <b>Fun fact :</b> Tanthiel est apparue car les compétences de Gaffiot n'était pas suffisante et à force d'entrainement, elle est devenue un personnage très puissant.</p>
+                        </p>
+                    </div>
+    
+                <!-- Footer -->
+                    <div class="modal-footer d-flex justify-content-center">
+                        <a class="btn w-75 btn-sm-dark " data-bs-toggle="tooltip" data-bs-placement="bottom" href="contact.html">I pick this character</a>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-4 col-md-6">
+            <div class="card bg-orange"> 
+                <img src="./images/cyberpunk2.jpg" class="card-img-top"/>
+                <div class="card-body text-center">
+                    <h5>Dev <span class="text-white">Morgause</span></h5>
+                </div>
+                <div class="card-footer p-3 text-center">
+                    <button type="button" class="btn btn-sm-dark w-75" data-bs-toggle="modal" data-bs-target="#morgause">Gameplay</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="morgause" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+    
+                    <!-- Header -->
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center">
+                            Dev Morgause
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+    
+                <!-- Body -->
+                    <div class="modal-body w-100">
+                        <img src="./images/cyberpunk2.jpg" class="w-100"/>
+                        <p>La hackeuse fait ses premiers pas. <br> Elle s'entraine tous les jours pour qu'elle puisse faire ses débuts au sein d'une team. Elle ne dispose pas d'autant d'expériences que les autres champions et pourtant elle se 
+                            sent prête à soutenir son équipe avec ses connaissances. Pas encore prête à diriger, elle écoutera surtout les conseils
+                            du teamleader afin de progresser le plus rapidement possible.
+                            <p> <b>Fun fact :</b> Morgause n'attend qu'une team pour avoir des fun fact à ajouter à son compteur !</p>
+                        </p>
+                    </div>
+    
+                <!-- Footer -->
+                    <div class="modal-footer d-flex justify-content-center">
+                        <a class="btn w-75 btn-sm-dark " data-bs-toggle="tooltip" data-bs-placement="bottom" href="contact.html">I pick this character</a>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-muted bg-night-blue w-100">
+
+    <!-- Section: Links  -->
+        <section class="p-3">
+            <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+    
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4 text-white">
+                    Liens
+                </h6>
+                <p>
+                    <a href="index.html" class="text-reset text-decoration-none">Home</a>
+                </p>
+                <p>
+                    <a href="success.html" class="text-reset text-decoration-none">Success</a>
+                </p>
+                <p>
+                    <a href="contact.html" class="text-reset text-decoration-none">Contact</a>
+                </p>
+                <p>
+                    <a href="mentions-legales.html" class="text-reset text-decoration-none">Mentions légales</a>
+                </p>
+                </div>
+                <!-- Grid column -->
+    
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4 text-white">Socials</h6>
+                <p>
+                    <a href="https://github.com/Tanthiel50" target="_blank" class="text-reset"><i class="uil uil-github"></i></a>
+                </p>
+                <p>
+                    <a href="https://www.linkedin.com/in/c%C3%A9cile-blin-8ab25a72/" target="_blank" class="text-reset"><i class="uil uil-linkedin"></i></a>
+                </p>
+                <p>
+                    <a href="discordapp.com/users/268824133557551104" target="_blank" class="text-reset"><i class="uil uil-discord"></i></a>
+                </p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+            </div>
+        </section>
+    <!-- Section: Links  -->
+    
+    <!-- Copyright -->
+        <div class="text-center p-4">
+        © <?php echo date("Y"); ?> Copyright: Cara
+        </div>
+    <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    
+    
+    
+    
+    <script src="/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+    </body>
+    </html>
+    
+    
+
+
