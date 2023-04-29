@@ -42,7 +42,7 @@
                     <a href="https://www.linkedin.com/in/c%C3%A9cile-blin-8ab25a72/" target="_blank" class="text-reset"><i class="uil uil-linkedin"></i></a>
                 </p>
                 <p>
-                    <a href="https://discord.com/users/268824133557551104"><i class="uil uil-discord"></i></a>
+                    <a href="https://discord.com/users/268824133557551104" target="_blank" class="text-reset"><i class="uil uil-discord"></i></a>
                 </p>
                 </div>
                 <!-- Grid column -->
