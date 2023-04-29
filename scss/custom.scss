@@ -245,9 +245,18 @@ html, body {
 
 @media (max-width: 600px) {
   .hero-phrase{
-    font-size: 1rem;
+    font-size: 3rem;
   }
-  .role-img{
+  #image-hero{
+    display: none;
+  }
+  .second-hero-phrase{
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 400px) {
+  .img-contact{
     display: none;
   }
 }

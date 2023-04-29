@@ -11,7 +11,7 @@ include 'partials/header.php';
     </div>
     <div class="text-white position-absolute" id="text-hero">
         <h1 class="lg-display-1 hero-phrase">
-            Marketing <br> Communication <br> Full stack JS <span class="d-block fw-light mt-5 text-orange fw-bold">Pick your Player</span>
+            Marketing <br> Communication <br> Full stack JS <span class="d-block fw-light mt-5 text-orange fw-bold second-hero-phrase">Pick your champ</span>
         </h1>
     </div>
 </section>
@@ -21,7 +21,7 @@ include 'partials/header.php';
 <section class="bg-dark-gray text-white row pt-5">
     <img src="images/IMG-20230110-WA0002.jpg" class="role-img col-xl-6 col-xs-4 order-1" alt="">
     <div class="col d-flex flex-column align-items-center justify-content-center m-5 col order-2">
-        <h2 class="border-bottom border-orange border-1 display-4 pb-2 fw-bold"> THE PLAYER !</h2>
+        <h2 class="border-bottom border-orange border-1 display-4 pb-2 fw-bold role-phrase"> THE PLAYER </h2>
         <div class="pt-5 pb-5">
             Capable de positionner ses doigts sur les touches ZQSD sans avoir besoin d'ouvrir les yeux, Cara, plus connue sous le nom de Cécile Blin est une joueuse invétérée depuis 1991.
             Tank et healer en même temps, elle se spécialise dans la communication et le marketing. Cependant, elle ne veut pas s'arrêter là et souhaite aller plus loin pour aider son équipe. Donc sur 
@@ -67,7 +67,7 @@ include 'partials/header.php';
 <!-- Contact -->
 
 <section class="bg-orange d-flex flex-row justify-content-evenly align-items-center row pb-5">
-        <img src="images/newsletter.png" alt="" class="pt-3 pb-3 col-4" >
+        <img src="images/newsletter.png" alt="" class="pt-3 pb-3 col-4 img-contact" >
     <div class="col-6">
         <h3 class="display-3 fw-bold">
             A la recherche d'un nouveau <br> <span class="text-white border-bottom border-dark-gray border-3">Teammate ?</span>
