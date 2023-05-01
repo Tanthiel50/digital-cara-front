@@ -66,14 +66,14 @@ include 'partials/header.php';
 
 <!-- Contact -->
 
-<section class="bg-orange d-flex flex-row justify-content-evenly align-items-center row pb-5">
+<section class="bg-orange d-flex flex-row justify-content-evenly align-items-center row pb-1">
         <img src="images/newsletter.png" alt="" class="pt-3 pb-3 col-4 img-contact" >
     <div class="col-6">
         <h3 class="display-3 fw-bold">
             A la recherche d'un nouveau <br> <span class="text-white border-bottom border-dark-gray border-3">Teammate ?</span>
         </h3>
         <a type="button" class="btn btn-outline-dark-gray text-white btn-lg mt-4" href="contact.php">
-            Je te veux dans mon équipe !
+            Let's team up !
         </a>
     </div>
 </section>
