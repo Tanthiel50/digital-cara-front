@@ -42,7 +42,7 @@ include 'partials/header.php';
                             Marketing Gaffiot
                         </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal">
-                            <span>&times;</span>
+                            <!-- <span>&times;</span> -->
                         </button>
                     </div>
     
@@ -61,7 +61,7 @@ include 'partials/header.php';
     
                 <!-- Footer -->
                     <div class="modal-footer d-flex justify-content-center">
-                        <a class="btn w-75 btn-sm-dark " data-bs-toggle="tooltip" data-bs-placement="bottom" href="contact.html">I pick this character</a>
+                        <a class="btn w-75 btn-sm-dark " data-bs-toggle="tooltip" data-bs-placement="bottom" href="contact.php">I pick this character</a>
                     </div>
     
                 </div>
@@ -89,7 +89,7 @@ include 'partials/header.php';
                             Communication Tanthiel
                         </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal">
-                            <span>&times;</span>
+                            <!-- <span>&times;</span> -->
                         </button>
                     </div>
     
@@ -108,7 +108,7 @@ include 'partials/header.php';
     
                 <!-- Footer -->
                     <div class="modal-footer d-flex justify-content-center">
-                        <a class="btn w-75 btn-sm-dark " data-bs-toggle="tooltip" data-bs-placement="bottom" href="contact.html">I pick this character</a>
+                        <a class="btn w-75 btn-sm-dark " data-bs-toggle="tooltip" data-bs-placement="bottom" href="contact.php">I pick this character</a>
                     </div>
     
                 </div>
@@ -136,7 +136,7 @@ include 'partials/header.php';
                             Dev Morgause
                         </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal">
-                            <span>&times;</span>
+                            <!-- <span>&times;</span> -->
                         </button>
                     </div>
     
@@ -152,7 +152,7 @@ include 'partials/header.php';
     
                 <!-- Footer -->
                     <div class="modal-footer d-flex justify-content-center">
-                        <a class="btn w-75 btn-sm-dark " data-bs-toggle="tooltip" data-bs-placement="bottom" href="contact.html">I pick this character</a>
+                        <a class="btn w-75 btn-sm-dark " data-bs-toggle="tooltip" data-bs-placement="bottom" href="contact.php">I pick this character</a>
                     </div>
     
                 </div>
@@ -168,6 +168,56 @@ include 'partials/header.php';
             <h2 class="border-bottom border-orange border-1 pb-2 fw-bold text-white text-center">SUCCESS</h2>
         </div>
     <div class="row g-5">
+    <div class="col-lg-4 col-md-6">
+            <div class="card bg-white"> 
+                <img src="./images/success/twitter-alexander-shatov-scaled.webp" class="card-img-top"/>
+                <div class="card-body text-center">
+                    <h5>Twitter <span class="text-orange">A venir</span></h5>
+                </div>
+                <div class="card-footer p-3 text-center">
+                    <button type="button" class="btn btn-sm-dark w-75" data-bs-toggle="modal" data-bs-target="#Twitter">Let me see</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="Twitter" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+    
+                    <!-- Header -->
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center">
+                            Twitter
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal">
+                            <!-- <span>&times;</span> -->
+                        </button>
+                    </div>
+    
+                <!-- Body -->
+                    <div class="modal-body w-100">
+                        <img src="./images/success/twitter-alexander-shatov-scaled.webp" class="w-100"/>
+                        <p>Projet individuel proposé par la formation Believemy. Il s'agit de construire un clone de Twitter
+                            avec la connexion, déconnexion, création d'un tweet, abonnement à un compte, affichage des tweets, affichage des profils,
+                            répondre à un tweet, partager un tweet et supprimer un tweet. Les technologiques à utiliser sont :
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Git</li>
+                                <li>Github</li>
+                                <li>React</li>
+                            </ul>
+                            
+                        </p>
+                    </div>
+    
+                <!-- Footer -->
+                    <div class="modal-footer d-flex justify-content-center">
+                        <a class="btn w-75 btn-sm-dark " data-bs-toggle="tooltip" data-bs-placement="bottom" href="#" target="_blank">Le lien est à venir</a>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
         <div class="col-lg-4 col-md-6">
             <div class="card bg-white"> 
                 <img src="./images/success/digital-cara-back.png" class="card-img-top"/>
@@ -189,7 +239,7 @@ include 'partials/header.php';
                             Digital Cara
                         </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal">
-                            <span>&times;</span>
+                            <!-- <span>&times;</span> -->
                         </button>
                     </div>
     
@@ -238,7 +288,7 @@ include 'partials/header.php';
                             Hangman Game
                         </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal">
-                            <span>&times;</span>
+                            <!-- <span>&times;</span> -->
                         </button>
                     </div>
     
@@ -289,7 +339,7 @@ include 'partials/header.php';
                             Subscription Project
                         </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal">
-                            <span>&times;</span>
+                            <!-- <span>&times;</span> -->
                         </button>
                     </div>
     
@@ -336,7 +386,7 @@ include 'partials/header.php';
                             Netflix Connection
                         </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal">
-                            <span>&times;</span>
+                            <!-- <span>&times;</span> -->
                         </button>
                     </div>
     
@@ -383,7 +433,7 @@ include 'partials/header.php';
                             URL Shortcut
                         </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal">
-                            <span>&times;</span>
+                            <!-- <span>&times;</span> -->
                         </button>
                     </div>
     
@@ -430,7 +480,7 @@ include 'partials/header.php';
                             Mercury File
                         </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal">
-                            <span>&times;</span>
+                            <!-- <span>&times;</span> -->
                         </button>
                     </div>
     
@@ -476,7 +526,7 @@ include 'partials/header.php';
                             Weather API
                         </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal">
-                            <span>&times;</span>
+                            <!-- <span>&times;</span> -->
                         </button>
                     </div>
     

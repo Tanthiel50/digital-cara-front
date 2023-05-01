@@ -20,9 +20,6 @@
                     <a href="success.php" class="text-reset text-decoration-none">Success</a>
                 </p>
                 <p>
-                    <a href="incoming.php" class="text-reset text-decoration-none">Incoming</a>
-                </p>
-                <p>
                     <a href="contact.php" class="text-reset text-decoration-none">Contact</a>
                 </p>
                 <p>

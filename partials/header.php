@@ -31,9 +31,6 @@
                     <a class="nav-link" href="success.php">Success</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="incoming.php">Incoming</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
             </ul>
