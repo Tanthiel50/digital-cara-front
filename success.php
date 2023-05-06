@@ -170,6 +170,49 @@ include 'partials/header.php';
     <div class="row g-5">
     <div class="col-lg-4 col-md-6">
             <div class="card bg-white"> 
+                <img src="./images/success/Dashboard_Construction_Wide_Zoom-150-min.jpg" class="card-img-top"/>
+                <div class="card-body text-center">
+                    <h5>Dashboard <span class="text-orange">A venir</span></h5>
+                </div>
+                <div class="card-footer p-3 text-center">
+                    <button type="button" class="btn btn-sm-dark w-75" data-bs-toggle="modal" data-bs-target="#dashboard">Let me see</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="dashboard" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+    
+                    <!-- Header -->
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center">
+                            Dasboard
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal">
+                            <!-- <span>&times;</span> -->
+                        </button>
+                    </div>
+    
+                <!-- Body -->
+                    <div class="modal-body w-100">
+                        <img src="./images/success/Dashboard_Construction_Wide_Zoom-150-min.jpg" class="w-100"/>
+                        <p>Projet personnel avec <a href="https://laurentius.cloud/" target="_blank" rel="noopener noreferrer">Dylan</a>
+                        le but est de mettre en collaboration nos compétences tout en nous entrainant. L'extraction, le clean,
+                        la prevision et la mise à disposition des données pour l'un et Réact pour moi.
+                            
+                        </p>
+                    </div>
+    
+                <!-- Footer -->
+                    <div class="modal-footer d-flex justify-content-center">
+                        <a class="btn w-75 btn-sm-dark " data-bs-toggle="tooltip" data-bs-placement="bottom" href="#" target="_blank">Le lien est à venir</a>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    <div class="col-lg-4 col-md-6">
+            <div class="card bg-white"> 
                 <img src="./images/success/twitter-alexander-shatov-scaled.webp" class="card-img-top"/>
                 <div class="card-body text-center">
                     <h5>Twitter <span class="text-orange">A venir</span></h5>
@@ -247,14 +290,14 @@ include 'partials/header.php';
                     <div class="modal-body w-100">
                         <img src="./images/success/digital-cara-back.png" class="w-100"/>
                         <p>Une version un peu différente de ce site.
-                            Le projet initial était de faire une blog où il serait possible de publier des articles de blog et des projets via
+                            Le projet initial proposé par Believemy était de faire une blog où il serait possible de publier des articles de blog et des projets via
                             un dashboard. Les utilisateurs devaient également être en mesure de poster et gérer les commentaires via leur dashbord.
                             Le projet avait pour but d'utiliser :
                             <ul>
                                 <li>Bootstrap</li>
                                 <li>PHP</li>
                             </ul>
-                            Ce site utilise donc une version simplifié de cette version. Le projet est toujours en cours.
+                            Ce site utilise donc une version simplifié de cette version. 
                         </p>
                     </div>
     
