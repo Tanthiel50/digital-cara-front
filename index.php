@@ -11,7 +11,7 @@ include 'partials/header.php';
     </div>
     <div class="text-white position-absolute" id="text-hero">
         <h1 class="lg-display-1 hero-phrase">
-            Marketing <br> Communication <br> Full stack JS <span class="d-block fw-light mt-5 text-orange fw-bold second-hero-phrase">Pick your champ</span>
+            Marketing <br> Communication <br> Full stack <span class="d-block fw-light mt-5 text-orange fw-bold second-hero-phrase">Pick your champ</span>
         </h1>
     </div>
 </section>
