@@ -170,6 +170,53 @@ include 'partials/header.php';
     <div class="row g-5">
     <div class="col-lg-4 col-md-6">
             <div class="card bg-white"> 
+                <img src="./images/success/laurentius.png" class="card-img-top"/>
+                <div class="card-body text-center">
+                    <h5>Laurentius <span class="text-orange">Website</span></h5>
+                </div>
+                <div class="card-footer p-3 text-center">
+                    <button type="button" class="btn btn-sm-dark w-75" data-bs-toggle="modal" data-bs-target="#dashboard">Let me see</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="dashboard" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+    
+                    <!-- Header -->
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center">
+                            Dasboard
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal">
+                            <!-- <span>&times;</span> -->
+                        </button>
+                    </div>
+    
+                <!-- Body -->
+                    <div class="modal-body w-100">
+                        <img src="./images/success/laurentius.png" class="w-100"/>
+                        <p>Demande de site de la part de mon partenaire de game <a href="http://https://laurentius.cloud/" target="_blank" rel="noopener noreferrer">Laurentius</a>
+                        Il souhaitait un site simple (one page), il souhaitait du mouvement et un style un peu décalé.
+                        Les technologies utilisées sont: <br>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                        </ul>
+                        </p>
+                    </div>
+    
+                <!-- Footer -->
+                    <div class="modal-footer d-flex justify-content-center">
+                        <a class="btn w-75 btn-sm-dark " data-bs-toggle="tooltip" data-bs-placement="bottom" href="https://github.com/Tanthiel50/laurentius" target="_blank">Lien Github</a>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card bg-white"> 
                 <img src="./images/success/Dashboard_Construction_Wide_Zoom-150-min.jpg" class="card-img-top"/>
                 <div class="card-body text-center">
                     <h5>Dashboard <span class="text-orange">A venir</span></h5>
@@ -211,7 +258,7 @@ include 'partials/header.php';
                 </div>
             </div>
         </div>
-    <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6">
             <div class="card bg-white"> 
                 <img src="./images/success/twitter-alexander-shatov-scaled.webp" class="card-img-top"/>
                 <div class="card-body text-center">
