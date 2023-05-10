@@ -196,7 +196,7 @@ include 'partials/header.php';
                 <!-- Body -->
                     <div class="modal-body w-100">
                         <img src="./images/success/laurentius.png" class="w-100"/>
-                        <p>Demande de site de la part de mon partenaire de game <a href="http://https://laurentius.cloud/" target="_blank" rel="noopener noreferrer">Laurentius</a>
+                        <p>Demande de site de la part de mon partenaire de game <a href="http://laurentius.cloud/" target="_blank" rel="noopener noreferrer">Laurentius</a>
                         Il souhaitait un site simple (one page), il souhaitait du mouvement et un style un peu décalé.
                         Les technologies utilisées sont: <br>
                         <ul>
