@@ -17,10 +17,9 @@ include 'partials/header.php';
     <div class="container pb-5">
         <div class="card mt-2 mx-auto p-4 bg-orange d-flex flex-row justify-content-around">
             <div class="w-50 text-white">
-                <p>Je suis actuellement à la recherche d'une alternance full stack ou front end à partir de septembre 2023. J'habite actuellement sur la région nantaise,
-                    mais je souhaite déménager sur Lyon. <br> Il vous est possible de me contacter sur l'un de mes RS ou 
-                    via email. <br> L'apprentissage s'est fait jusqu'ici sur mon temps libre en priorisant mon emploi. Cependant,
-                    suite à ma décision de reconversion, l'apprentissage se fera à plein temps à partir de mai 2023 jusqu'à la rentrée de septembre.
+                <p>Je suis actuellement à la recherche d'une alternance full stack ou front end à partir de septembre 2023. J'habite actuellement sur la région nantaise.
+                    Il vous est possible de me contacter sur l'un de mes RS ou via email.
+                    L'apprentissage s'est fait jusqu'ici sur mon temps libre en priorisant mon emploi. Cependant, suite à ma décision de reconversion, l'apprentissage se fera à plein temps à partir de mai 2023 jusqu'à la rentrée de septembre. 
                     Cela me permettra de commencer avec le maximum de connaissances possible et ainsi être efficace rapidement.
                 </p>
             </div>
